@@ -16,25 +16,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lg5-0i-kj5">
-                                <rect key="frame" x="16" y="439" width="382" height="423"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
-                            </view>
                             <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4uN-e7-Fyv">
-                                <rect key="frame" x="16" y="44" width="382" height="341"/>
+                                <rect key="frame" x="16" y="44" width="382" height="382"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lg5-0i-kj5">
+                                <rect key="frame" x="16" y="448" width="382" height="382"/>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="lg5-0i-kj5" firstAttribute="top" secondItem="4uN-e7-Fyv" secondAttribute="bottom" constant="54" id="2s3-uI-Wdx"/>
-                            <constraint firstItem="lg5-0i-kj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AeR-bd-Szi"/>
-                            <constraint firstItem="4uN-e7-Fyv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="FZa-Fn-QW3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lg5-0i-kj5" secondAttribute="trailing" constant="16" id="HxC-SS-5J1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4uN-e7-Fyv" secondAttribute="trailing" constant="16" id="NUO-NR-Ktu"/>
-                            <constraint firstItem="lg5-0i-kj5" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="16" id="QkE-ff-XiX"/>
-                            <constraint firstItem="4uN-e7-Fyv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="rlm-DV-0MY"/>
+                            <constraint firstItem="lg5-0i-kj5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2AT-AO-6vB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4uN-e7-Fyv" secondAttribute="trailing" constant="16" id="Qbl-Jl-dGg"/>
+                            <constraint firstItem="4uN-e7-Fyv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="csn-X4-Kut"/>
+                            <constraint firstItem="lg5-0i-kj5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ngI-RQ-iFb"/>
+                            <constraint firstItem="4uN-e7-Fyv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="oHh-D3-wgu"/>
+                            <constraint firstItem="lg5-0i-kj5" firstAttribute="firstBaseline" secondItem="4uN-e7-Fyv" secondAttribute="baseline" constant="8" symbolType="layoutAnchor" id="uUJ-Ri-0t4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lg5-0i-kj5" secondAttribute="trailing" constant="16" id="yAL-HX-i0F"/>
                         </constraints>
                     </view>
                 </viewController>
