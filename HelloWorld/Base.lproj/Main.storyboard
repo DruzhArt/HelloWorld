@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
@@ -13,16 +13,16 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HelloWorld" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4uN-e7-Fyv">
-                                <rect key="frame" x="16" y="48" width="380" height="379"/>
+                                <rect key="frame" x="16" y="48" width="380" height="138"/>
                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sZo-lU-V1L">
-                                <rect key="frame" x="16" y="473" width="380" height="379"/>
+                                <rect key="frame" x="16" y="232" width="380" height="138"/>
                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                         </subviews>
@@ -33,7 +33,7 @@
                             <constraint firstItem="4uN-e7-Fyv" firstAttribute="height" secondItem="sZo-lU-V1L" secondAttribute="height" id="Es3-gf-1Xw"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="sZo-lU-V1L" secondAttribute="bottom" constant="10" id="Vha-Ex-MaI"/>
                             <constraint firstItem="sZo-lU-V1L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="dvi-7q-DaB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="sZo-lU-V1L" secondAttribute="trailing" constant="18" id="fGT-nC-8nZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="sZo-lU-V1L" secondAttribute="trailing" constant="18" id="fGT-nC-8nZ"/>
                             <constraint firstItem="4uN-e7-Fyv" firstAttribute="leading" secondItem="sZo-lU-V1L" secondAttribute="trailing" constant="-380" id="fzB-ZL-iIA"/>
                             <constraint firstItem="sZo-lU-V1L" firstAttribute="top" secondItem="4uN-e7-Fyv" secondAttribute="bottom" constant="46" id="ga9-ZS-1Y9"/>
                             <constraint firstItem="4uN-e7-Fyv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ja6-mh-vYo"/>
@@ -44,7 +44,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="225" y="67"/>
+            <point key="canvasLocation" x="181" y="19"/>
         </scene>
     </scenes>
     <resources>
