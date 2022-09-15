@@ -46,6 +46,41 @@
             </objects>
             <point key="canvasLocation" x="161" y="1"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="kyi-jd-diM">
+            <objects>
+                <viewController id="QSq-Ej-UJx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qS0-oG-Ype">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hOf-n3-FLN">
+                                <rect key="frame" x="17" y="48" width="380" height="380"/>
+                                <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Xc-YO-oPt">
+                                <rect key="frame" x="17" y="461" width="380" height="380"/>
+                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="eIH-2t-W1N"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="eIH-2t-W1N" firstAttribute="trailing" secondItem="0Xc-YO-oPt" secondAttribute="trailing" constant="17" id="9WZ-Hx-r2K"/>
+                            <constraint firstItem="0Xc-YO-oPt" firstAttribute="top" secondItem="hOf-n3-FLN" secondAttribute="bottom" constant="33" id="AWS-GR-Zv9"/>
+                            <constraint firstItem="hOf-n3-FLN" firstAttribute="leading" secondItem="eIH-2t-W1N" secondAttribute="leading" constant="17" id="MDV-g8-2vE"/>
+                            <constraint firstItem="eIH-2t-W1N" firstAttribute="trailing" secondItem="hOf-n3-FLN" secondAttribute="trailing" constant="17" id="TFY-4i-alf"/>
+                            <constraint firstItem="0Xc-YO-oPt" firstAttribute="height" secondItem="hOf-n3-FLN" secondAttribute="height" id="Z3Q-0c-3F9"/>
+                            <constraint firstItem="0Xc-YO-oPt" firstAttribute="leading" secondItem="eIH-2t-W1N" secondAttribute="leading" constant="17" id="mhY-X1-RlK"/>
+                            <constraint firstItem="hOf-n3-FLN" firstAttribute="top" secondItem="eIH-2t-W1N" secondAttribute="top" id="tPL-Yf-E14"/>
+                            <constraint firstItem="eIH-2t-W1N" firstAttribute="bottom" secondItem="0Xc-YO-oPt" secondAttribute="bottom" constant="21" id="vdM-BT-6u7"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jMb-si-8K4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="869" y="-22"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
@@ -56,6 +91,12 @@
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemOrangeColor">
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPurpleColor">
+            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
